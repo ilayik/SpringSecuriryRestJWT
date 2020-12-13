@@ -15,7 +15,9 @@ public class DeveloperRestControllerV1 {
     private List<Developer> DEVELOPERS = Stream.of(
             new Developer(1L, "Ivan", "Ivanov"),
             new Developer(2L, "Sergey", "Sergeev"),
-            new Developer(3L, "Pavel", "Pavlov")
+            new Developer(3L, "Pavel", "Pavlov"),
+            new Developer(4L, "Ilya", "Ilyin")
+
 
     ).collect(Collectors.toList());
 
