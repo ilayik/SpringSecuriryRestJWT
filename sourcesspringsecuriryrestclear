@@ -1,0 +1,47 @@
+[33mcommit 280f60b528e434cebe695c94be6bc68f7f5d07e1[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31mSpringSecuriryRestJWT/AuthUsersInDB[m[33m, [m[1;32mAuthUsersInDB[m[33m)[m
+Author: Ilya <ilay.ik@gmail.com>
+Date:   Sun Dec 13 17:58:02 2020 +0300
+
+    Auth with DB
+
+[33mcommit dc0759224e737abbce56db25a1f7505de9cd805f[m[33m ([m[1;31mSpringSecuriryRestJWT/master[m[33m)[m
+Author: Ilya <ilay.ik@gmail.com>
+Date:   Sun Dec 13 14:13:48 2020 +0300
+
+    Auth with custom pageLogni
+
+[33mcommit 3a143a4fc1634c373677eda60f1631cd57933c75[m
+Author: Ilya <ilay.ik@gmail.com>
+Date:   Sun Dec 13 12:38:07 2020 +0300
+
+    Annotation @PreAuthorize
+
+[33mcommit d41c5ce162d7cb2989880d673d5e98e3e9ca632e[m
+Author: Ilya <ilay.ik@gmail.com>
+Date:   Sun Dec 13 12:21:24 2020 +0300
+
+    Authorization wich permissions
+
+[33mcommit 2f6f7719f6dcd964bd2c52177fa63eeb45e6342a[m
+Author: Ilya <ilay.ik@gmail.com>
+Date:   Sun Dec 13 11:15:47 2020 +0300
+
+    Authorization wich roles
+
+[33mcommit 7569932a8fb09de2cdebe4f1456f8c36204f30ad[m
+Author: Ilya <ilay.ik@gmail.com>
+Date:   Sat Dec 12 23:50:09 2020 +0300
+
+    Configuration spring security userDetailsService InMemory
+
+[33mcommit ef2255d4b3369040905223492781abc7b812a021[m
+Author: Ilya <ilay.ik@gmail.com>
+Date:   Sat Dec 12 23:28:28 2020 +0300
+
+    Spring security Bases Auth
+
+[33mcommit a19cdb289d50ab4df3684ddc43b7f00508ca6193[m
+Author: Ilya <ilay.ik@gmail.com>
+Date:   Sat Dec 12 13:05:33 2020 +0300
+
+    1 project temmplate

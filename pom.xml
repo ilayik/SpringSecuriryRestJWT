@@ -17,6 +17,7 @@
 	<properties>
 		<java.version>11</java.version>
 		<postgresql.version>42.2.18</postgresql.version>
+		<jsonwebtoken.version>0.9.1</jsonwebtoken.version>
 	</properties>
 
 	<dependencies>
@@ -46,7 +47,11 @@
 			<artifactId>postgresql</artifactId>
 			<version>${postgresql.version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>${jsonwebtoken.version}</version>
+		</dependency>
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
