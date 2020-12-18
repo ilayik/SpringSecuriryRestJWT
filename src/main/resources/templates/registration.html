@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+</head>
+<body>
+<div class="container">
+    <form class="form-signin" method="post" action="/api/v1/auth/login" th:object="${userDTO}">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <p>
+            <label for="login" class="sr-only">Login</label>
+            <input type="text" id="login" name="login" class="form-control" placeholder="Login" value="#{login}" required autofocus>
+        </p>
+        <p>
+            <label for="password" class="sr-only">Password</label>
+            <input type="password" id="password" name="password" class="form-control" placeholder="Password" value="#{password}" required>
+        </p>
+        <p>
+            <label for="rpassword" class="sr-only">RPassword</label>
+            <input type="password" id="rpassword" name="rpassword" class="form-control" placeholder="RPassword" value="#{rpassword}" required>
+        </p>
+        <p>
+            <label for="email" class="sr-only">Email</label>
+            <input type="text" id="email" name="email" class="form-control" placeholder="Email" value="#{email}" required autofocus>
+        </p>
+        <p>
+            <label for="firstName" class="sr-only">First name</label>
+            <input type="text" id="firstName" name="firstName" class="form-control" placeholder="First name" value="#{firstName}" required autofocus>
+        </p>
+        <p>
+            <label for="lastName" class="sr-only">Last name</label>
+            <input type="text" id="lastName" name="lastName" class="form-control" placeholder="Last name" value="#{lastName}" required autofocus>
+        </p>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+    </form>
+</div>
+</body>
+</html>
