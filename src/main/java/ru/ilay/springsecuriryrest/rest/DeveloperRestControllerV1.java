@@ -1,5 +1,6 @@
 package ru.ilay.springsecuriryrest.rest;
 
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import ru.ilay.springsecuriryrest.model.Developer;
@@ -23,8 +24,8 @@ public class DeveloperRestControllerV1 {
 
     @GetMapping
     @PreAuthorize("hasAuthority('developers:read')")
-    public List<Developer> getAll() {
-        return DEVELOPERS;
+    public ResponseEntity<?> getAll() {
+        return ResponseEntity.ok(DEVELOPERS);
     }
 
     @GetMapping("/{id}")
